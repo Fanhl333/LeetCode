@@ -3,7 +3,7 @@
  * The sizes of the arrays are returned as *returnColumnSizes array.
  * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().
  */
-
+// https://leetcode-cn.com/problems/3sum/
 int Cmp (const void * a, const void *b)
 {
     return *(int *)a - *(int *)b;

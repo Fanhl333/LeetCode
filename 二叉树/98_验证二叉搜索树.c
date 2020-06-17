@@ -6,6 +6,7 @@
  *     struct TreeNode *right;
  * };
  */
+// https://leetcode-cn.com/problems/validate-binary-search-tree/
 bool helper(struct TreeNode* root, long long lower, long long upper)
 {
     if (root == NULL) {
