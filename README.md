@@ -54,7 +54,7 @@
 ### 2.2 典型题目
 
  [15_三数之和](https://leetcode-cn.com/problems/3sum/)
- [my_solution](https://github.com/Fanhl333/LeetCode/blob/master/%E5%8F%8C%E6%8C%87%E9%92%88/15_%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C%20.c)
+ - [my_c_solution](https://github.com/Fanhl333/LeetCode/blob/master/%E5%8F%8C%E6%8C%87%E9%92%88/15_%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C%20.c)
 
 
 
