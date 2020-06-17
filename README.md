@@ -171,6 +171,7 @@ int main()
 ### 3.2 典型题目
 
  [200_岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
+  - [my_c_solution](https://github.com/Fanhl333/LeetCode/blob/master/%E5%B9%B6%E6%9F%A5%E9%9B%86/200_%E5%B2%9B%E5%B1%BF%E6%95%B0%E9%87%8F.c)
 
 ## 4 单调栈与单调队列
 
@@ -191,20 +192,28 @@ int main()
 ### 5.2 典型题目
 
 [98_验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)
+ - [my_c_solution](https://github.com/Fanhl333/LeetCode/blob/master/%E4%BA%8C%E5%8F%89%E6%A0%91/98_%E9%AA%8C%E8%AF%81%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.c)
 
 [101_对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)
+ - [my_c_solution](https://github.com/Fanhl333/LeetCode/blob/master/%E4%BA%8C%E5%8F%89%E6%A0%91/101_%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91.c)
 
 [102_二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
+ - [my_c_solution](https://github.com/Fanhl333/LeetCode/blob/master/%E4%BA%8C%E5%8F%89%E6%A0%91/102_%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86.c)
 
 [104_ 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
+ - [my_c_solution](https://github.com/Fanhl333/LeetCode/blob/master/%E4%BA%8C%E5%8F%89%E6%A0%91/104_%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6.c)
 
 [105_从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+ - [my_c_solution](https://github.com/Fanhl333/LeetCode/blob/master/%E4%BA%8C%E5%8F%89%E6%A0%91/105_%E4%BB%8E%E5%89%8D%E5%BA%8F%E4%B8%8E%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91.c)
 
 [108_将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)
+ - [my_c_solution](https://github.com/Fanhl333/LeetCode/blob/master/%E4%BA%8C%E5%8F%89%E6%A0%91/108_%E5%B0%86%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E8%BD%AC%E6%8D%A2%E4%B8%BA%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.c)
 
 [236_二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+ - [my_c_solution](https://github.com/Fanhl333/LeetCode/blob/master/%E4%BA%8C%E5%8F%89%E6%A0%91/236_%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.c)
 
 [面试题17.12. BiNode](https://leetcode-cn.com/problems/binode-lcci/)
+ - [my_c_solution](https://github.com/Fanhl333/LeetCode/blob/master/%E4%BA%8C%E5%8F%89%E6%A0%91/%E9%9D%A2%E8%AF%95%E9%A2%9817.12.%20BiNode.c)
 
 
 
@@ -217,6 +226,7 @@ int main()
 ### 6.2 典型题目
 
  [200_岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
+  - [my_c_solution](https://github.com/Fanhl333/LeetCode/blob/master/DFS%E4%B8%8EBFS/200_%E5%B2%9B%E5%B1%BF%E6%95%B0%E9%87%8F.c)
 
 
 
@@ -239,6 +249,7 @@ int main()
 ### 8.2 典型题目
 
 [452_用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)
+ - [my_c_solution](https://github.com/Fanhl333/LeetCode/blob/master/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95/452_%E7%94%A8%E6%9C%80%E5%B0%91%E6%95%B0%E9%87%8F%E7%9A%84%E7%AE%AD%E5%BC%95%E7%88%86%E6%B0%94%E7%90%83.c)
 
 
 
@@ -251,6 +262,7 @@ int main()
 ### 9.2 典型题目
 
 [210_课程表Ⅱ](https://leetcode-cn.com/problems/course-schedule-ii/)
+ - [my_c_solution](https://github.com/Fanhl333/LeetCode/blob/master/%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F/210_%E8%AF%BE%E7%A8%8B%E8%A1%A8%E2%85%A1.c)
 
 
 
