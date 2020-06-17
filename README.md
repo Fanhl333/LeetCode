@@ -23,8 +23,6 @@
 
  [15_三数之和](https://leetcode-cn.com/problems/3sum/)
 
-- [c_solution](./双指针/15_三数之和 .c)
-
 
 
 ## 3 并查集
