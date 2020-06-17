@@ -172,8 +172,6 @@ int main()
 
  [200_岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
 
-
-
 ## 4 单调栈与单调队列
 
 ### 4.1 简介
