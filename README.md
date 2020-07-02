@@ -273,7 +273,12 @@ int main()
 
 
 ### 10.2 典型题目
-
+[208_实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
+ - [my_c_solution](https://github.com/Fanhl333/LeetCode/blob/master/%E5%AD%97%E5%85%B8%E6%A0%91/208_%E5%AE%9E%E7%8E%B0%20Trie%20(%E5%89%8D%E7%BC%80%E6%A0%91).c)
+[648_单词替换](https://leetcode-cn.com/problems/replace-words/)
+ - [my_c_solution](https://github.com/Fanhl333/LeetCode/blob/master/%E5%AD%97%E5%85%B8%E6%A0%91/648_%E5%8D%95%E8%AF%8D%E6%9B%BF%E6%8D%A2.c)
+[820_单词的压缩编码](https://leetcode-cn.com/problems/short-encoding-of-words/)
+ - [my_c_solution](https://github.com/Fanhl333/LeetCode/blob/master/%E5%AD%97%E5%85%B8%E6%A0%91/820_%E5%8D%95%E8%AF%8D%E7%9A%84%E5%8E%8B%E7%BC%A9%E7%BC%96%E7%A0%81.c)
 
 
 
