@@ -230,7 +230,7 @@ int main()
 
  [207_课程表](https://leetcode-cn.com/problems/course-schedule/)
 
-  - [my_c_solution]（）
+  - [my_c_solution](https://github.com/Fanhl333/LeetCode/blob/master/DFS%E4%B8%8EBFS/207_%E8%AF%BE%E7%A8%8B%E8%A1%A8.c)
 
 ## 7 动态规划
 
