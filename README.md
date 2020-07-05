@@ -1,187 +1,210 @@
-# LeetCode
-è®°å½•è‡ªå·±çš„åˆ·é¢˜ä¹‹è·¯ï¼Œè´µåœ¨åšã€‚
-
 #### Table of contents
 - [LeetCode](#LeetCode)
-    - [1 å‰ç¼€å’Œä¸å·®åˆ†](#1-å‰ç¼€å’Œä¸å·®åˆ†)
-        - [1.1 ç®€ä»‹](#1.1-ç®€ä»‹)
-        - [1.2 å…¸å‹é¢˜ç›®](#1.2-å…¸å‹é¢˜ç›®)
-    - [2 åŒæŒ‡é’ˆ](#2-åŒæŒ‡é’ˆ)
-        - [2.1 ç®€ä»‹](#2.1-ç®€ä»‹)
-        - [2.2 å…¸å‹é¢˜ç›®](#2.2-å…¸å‹é¢˜ç›®)
-    - [3 å¹¶æŸ¥é›†](#3-å¹¶æŸ¥é›†)
-        - [3.1 ç®€ä»‹](#3.1-ç®€ä»‹)
-        - [3.2 å…¸å‹é¢˜ç›®](#3.2-å…¸å‹é¢˜ç›®)
-    - [4 å•è°ƒæ ˆä¸å•è°ƒé˜Ÿåˆ—](#4-å•è°ƒæ ˆä¸å•è°ƒé˜Ÿåˆ—)
-        - [4.1 ç®€ä»‹](#4.1-ç®€ä»‹)
-        - [4.2 å…¸å‹é¢˜ç›®](#4.2-å…¸å‹é¢˜ç›®)
-    - [5 äºŒå‰æ ‘](#5-äºŒå‰æ ‘)
-        - [5.1 ç®€ä»‹](#5.1-ç®€ä»‹)
-        - [5.2 å…¸å‹é¢˜ç›®](#5.2-å…¸å‹é¢˜ç›®)
-    - [6 DFS ä¸ BFS](#6-DFS-ä¸-BFS)
-        - [6.1 ç®€ä»‹](#6.1-ç®€ä»‹)
-        - [6.2 å…¸å‹é¢˜ç›®](#6.2-å…¸å‹é¢˜ç›®)
-    - [7 åŠ¨æ€è§„åˆ’](#7-åŠ¨æ€è§„åˆ’)
-        - [7.1 ç®€ä»‹](#7.1-ç®€ä»‹)
-        - [7.2 å…¸å‹é¢˜ç›®](#7.2-å…¸å‹é¢˜ç›®)
-    - [8 è´ªå¿ƒç®—æ³•](#8-è´ªå¿ƒç®—æ³•)
-        - [8.1 ç®€ä»‹](#8.1-ç®€ä»‹)
-        - [8.2 å…¸å‹é¢˜ç›®](#8.2-å…¸å‹é¢˜ç›®)
-    - [9 æ‹“æ‰‘æ’åº](#9-æ‹“æ‰‘æ’åº)
-        - [9.1 ç®€ä»‹](#9.1-ç®€ä»‹)
-        - [9.2 å…¸å‹é¢˜ç›®](#9.2-å…¸å‹é¢˜ç›®)
-    - [10 å­—å…¸æ ‘](#10-å­—å…¸æ ‘)
-        - [10.1 ç®€ä»‹](#10.1-ç®€ä»‹)
-        - [10.2 å…¸å‹é¢˜ç›®](#10.2-å…¸å‹é¢˜ç›®)
+        
+        - [Table of contents](#Table-of-contents)
+    
+    - [1 Ç°×ººÍÓë²î·Ö](#1-Ç°×ººÍÓë²î·Ö)
+        - [1.1 ¼ò½é](#1.1-¼ò½é)
+        - [1.2 µäĞÍÌâÄ¿](#1.2-µäĞÍÌâÄ¿)
+    - [2 Ë«Ö¸Õë](#2-Ë«Ö¸Õë)
+        - [2.1 ¼ò½é](#2.1-¼ò½é)
+        - [2.2 µäĞÍÌâÄ¿](#2.2-µäĞÍÌâÄ¿)
+    - [3 ²¢²é¼¯](#3-²¢²é¼¯)
+        - [3.1 ¼ò½é](#3.1-¼ò½é)
+        - [3.2 µäĞÍÌâÄ¿](#3.2-µäĞÍÌâÄ¿)
+    - [4 µ¥µ÷Õ»Óëµ¥µ÷¶ÓÁĞ](#4-µ¥µ÷Õ»Óëµ¥µ÷¶ÓÁĞ)
+        - [4.1 ¼ò½é](#4.1-¼ò½é)
+        - [4.2 µäĞÍÌâÄ¿](#4.2-µäĞÍÌâÄ¿)
+    - [5 ¶ş²æÊ÷](#5-¶ş²æÊ÷)
+        - [5.1 ¼ò½é](#5.1-¼ò½é)
+        - [5.2 µäĞÍÌâÄ¿](#5.2-µäĞÍÌâÄ¿)
+    - [6 DFS](#6-DFS)
+        - [6.1 ¼ò½é](#6.1-¼ò½é)
+        - [6.2 µäĞÍÌâÄ¿](#6.2-µäĞÍÌâÄ¿)
+    - [7 BFS](#7-BFS)
+        - [7.1 ¼ò½é](#7.1-¼ò½é)
+        - [7.2 µäĞÍÌâÄ¿](#7.2-µäĞÍÌâÄ¿)
+    - [8 ¶¯Ì¬¹æ»®](#8-¶¯Ì¬¹æ»®)
+        - [8.1 ¼ò½é](#8.1-¼ò½é)
+        - [8.2 µäĞÍÌâÄ¿](#8.2-µäĞÍÌâÄ¿)
+    - [9 Ì°ĞÄËã·¨](#9-Ì°ĞÄËã·¨)
+        - [9.1 ¼ò½é](#9.1-¼ò½é)
+        - [9.2 µäĞÍÌâÄ¿](#9.2-µäĞÍÌâÄ¿)
+    - [10 ÍØÆËÅÅĞò](#10-ÍØÆËÅÅĞò)
+        - [10.1 ¼ò½é](#10.1-¼ò½é)
+        - [10.2 µäĞÍÌâÄ¿](#10.2-µäĞÍÌâÄ¿)
+    - [11 ×ÖµäÊ÷](#11-×ÖµäÊ÷)
+        - [11.1 ¼ò½é](#11.1-¼ò½é)
+        - [11.2 µäĞÍÌâÄ¿](#11.2-µäĞÍÌâÄ¿)
+# LeetCode
+¼ÇÂ¼×Ô¼ºµÄË¢ÌâÖ®Â·£¬¹óÔÚ¼á¡£
 
-## 1 å‰ç¼€å’Œä¸å·®åˆ†
+## 1 Ç°×ººÍÓë²î·Ö
 
-### 1.1 ç®€ä»‹
+### 1.1 ¼ò½é
 https://oi-wiki.org/basic/prefix-sum/
 
 
-### 1.2 å…¸å‹é¢˜ç›®
+### 1.2 µäĞÍÌâÄ¿
 
 
 
-## 2 åŒæŒ‡é’ˆ
+## 2 Ë«Ö¸Õë
 
-### 2.1 ç®€ä»‹
-
-
-
-### 2.2 å…¸å‹é¢˜ç›®
-
- [15_ä¸‰æ•°ä¹‹å’Œ](https://leetcode-cn.com/problems/3sum/)
- - [my_c_solution](https://github.com/Fanhl333/LeetCode/blob/master/%E5%8F%8C%E6%8C%87%E9%92%88/15_%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C%20.c)
+### 2.1 ¼ò½é
 
 
 
-## 3 å¹¶æŸ¥é›†
+### 2.2 µäĞÍÌâÄ¿
 
-### 3.1 ç®€ä»‹
-
-[å¹¶æŸ¥é›†åŸç†ç®€ä»‹](./å¹¶æŸ¥é›†/å¹¶æŸ¥é›†åŸç†ç®€ä»‹.md)
-
-### 3.2 å…¸å‹é¢˜ç›®
-
- [200_å²›å±¿æ•°é‡](https://leetcode-cn.com/problems/number-of-islands/)
-  - [my_c_solution](./å¹¶æŸ¥é›†/200_å²›å±¿æ•°é‡.c)
-
-## 4 å•è°ƒæ ˆä¸å•è°ƒé˜Ÿåˆ—
-
-### 4.1 ç®€ä»‹
+ [15_ÈıÊıÖ®ºÍ](https://leetcode-cn.com/problems/3sum/)
+ - [my_c_solution](./2_Ë«Ö¸Õë/15_ÈıÊıÖ®ºÍ .c)
 
 
 
-### 4.2 å…¸å‹é¢˜ç›®
+## 3 ²¢²é¼¯
+
+### 3.1 ¼ò½é
+
+[²¢²é¼¯Ô­Àí¼ò½é](./²¢²é¼¯/²¢²é¼¯Ô­Àí¼ò½é.md)
+
+### 3.2 µäĞÍÌâÄ¿
+
+ [200_µºÓìÊıÁ¿](https://leetcode-cn.com/problems/number-of-islands/)
+  - [my_c_solution](./3_²¢²é¼¯/200_µºÓìÊıÁ¿.c)
+
+## 4 µ¥µ÷Õ»Óëµ¥µ÷¶ÓÁĞ
+
+### 4.1 ¼ò½é
 
 
 
-## 5 äºŒå‰æ ‘
-
-### 5.1 ç®€ä»‹
+### 4.2 µäĞÍÌâÄ¿
 
 
 
-### 5.2 å…¸å‹é¢˜ç›®
+## 5 ¶ş²æÊ÷
 
-[98_éªŒè¯äºŒå‰æœç´¢æ ‘](https://leetcode-cn.com/problems/validate-binary-search-tree/)
- - [my_c_solution](./äºŒå‰æ ‘/98_éªŒè¯äºŒå‰æœç´¢æ ‘.c)
-
-[101_å¯¹ç§°äºŒå‰æ ‘](https://leetcode-cn.com/problems/symmetric-tree/)
- - [my_c_solution](./äºŒå‰æ ‘/101_å¯¹ç§°äºŒå‰æ ‘.c)
-
-[102_äºŒå‰æ ‘çš„å±‚åºéå†](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
- - [my_c_solution](./äºŒå‰æ ‘/102_äºŒå‰æ ‘çš„å±‚åºéå†.c)
-
-[104_äºŒå‰æ ‘çš„æœ€å¤§æ·±åº¦](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
- - [my_c_solution](./äºŒå‰æ ‘/104_äºŒå‰æ ‘çš„æœ€å¤§æ·±åº¦.c)
-
-[105_ä»å‰åºä¸ä¸­åºéå†åºåˆ—æ„é€ äºŒå‰æ ‘](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
- - [my_c_solution](./äºŒå‰æ ‘/105_ä»å‰åºä¸ä¸­åºéå†åºåˆ—æ„é€ äºŒå‰æ ‘.c)
-
-[108_å°†æœ‰åºæ•°ç»„è½¬æ¢ä¸ºäºŒå‰æœç´¢æ ‘](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)
- - [my_c_solution](./äºŒå‰æ ‘/108_å°†æœ‰åºæ•°ç»„è½¬æ¢ä¸ºäºŒå‰æœç´¢æ ‘.c)
-
-[236_äºŒå‰æ ‘çš„æœ€è¿‘å…¬å…±ç¥–å…ˆ](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
- - [my_c_solution](./äºŒå‰æ ‘/236_äºŒå‰æ ‘çš„æœ€è¿‘å…¬å…±ç¥–å…ˆ.c)
-
-[é¢è¯•é¢˜17.12. BiNode](https://leetcode-cn.com/problems/binode-lcci/)
- - [my_c_solution](./äºŒå‰æ ‘/é¢è¯•é¢˜17.12. BiNode.c)
+### 5.1 ¼ò½é
 
 
 
-## 6 DFS ä¸ BFS
+### 5.2 µäĞÍÌâÄ¿
 
-### 6.1 ç®€ä»‹
+[98_ÑéÖ¤¶ş²æËÑË÷Ê÷](https://leetcode-cn.com/problems/validate-binary-search-tree/)
+ - [my_c_solution](./5_¶ş²æÊ÷/98_ÑéÖ¤¶ş²æËÑË÷Ê÷.c)
+
+[101_¶Ô³Æ¶ş²æÊ÷](https://leetcode-cn.com/problems/symmetric-tree/)
+ - [my_c_solution](./5_¶ş²æÊ÷/101_¶Ô³Æ¶ş²æÊ÷.c)
+
+[102_¶ş²æÊ÷µÄ²ãĞò±éÀú](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
+ - [my_c_solution](./5_¶ş²æÊ÷/102_¶ş²æÊ÷µÄ²ãĞò±éÀú.c)
+
+[104_¶ş²æÊ÷µÄ×î´óÉî¶È](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
+ - [my_c_solution](./5_¶ş²æÊ÷/104_¶ş²æÊ÷µÄ×î´óÉî¶È.c)
+
+[105_´ÓÇ°ĞòÓëÖĞĞò±éÀúĞòÁĞ¹¹Ôì¶ş²æÊ÷](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+ - [my_c_solution](./5_¶ş²æÊ÷/105_´ÓÇ°ĞòÓëÖĞĞò±éÀúĞòÁĞ¹¹Ôì¶ş²æÊ÷.c)
+
+[108_½«ÓĞĞòÊı×é×ª»»Îª¶ş²æËÑË÷Ê÷](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)
+
+ - [my_c_solution](./5_¶ş²æÊ÷/108_½«ÓĞĞòÊı×é×ª»»Îª¶ş²æËÑË÷Ê÷.c)
+
+[236_¶ş²æÊ÷µÄ×î½ü¹«¹²×æÏÈ](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+ - [my_c_solution](./5_¶ş²æÊ÷/236_¶ş²æÊ÷µÄ×î½ü¹«¹²×æÏÈ.c)
+
+[ÃæÊÔÌâ17.12. BiNode](https://leetcode-cn.com/problems/binode-lcci/)
+ - [my_c_solution](./5_¶ş²æÊ÷/ÃæÊÔÌâ17_12_BiNode.c)
 
 
 
-### 6.2 å…¸å‹é¢˜ç›®
- [93_å¤åŸIPåœ°å€](https://leetcode-cn.com/problems/restore-ip-addresses/)
-  - [my_c_solution](./DFSä¸BFS/93_å¤åŸIPåœ°å€.c)
+## 6 DFS
 
- [200_å²›å±¿æ•°é‡](https://leetcode-cn.com/problems/number-of-islands/)
-  - [my_c_solution](./DFSä¸BFS/200_å²›å±¿æ•°é‡.c)
-
- [207_è¯¾ç¨‹è¡¨](https://leetcode-cn.com/problems/course-schedule/)
-
-  - [my_c_solution](./DFSä¸BFS/207_è¯¾ç¨‹è¡¨.c)
-
-## 7 åŠ¨æ€è§„åˆ’
-
-### 7.1 ç®€ä»‹
+### 6.1 ¼ò½é
 
 
 
-### 7.2 å…¸å‹é¢˜ç›®
+### 6.2 µäĞÍÌâÄ¿
+ [93_¸´Ô­IPµØÖ·](https://leetcode-cn.com/problems/restore-ip-addresses/)
+  - [my_c_solution](./6_DFS/93_¸´Ô­IPµØÖ·.c)
+
+ [200_µºÓìÊıÁ¿](https://leetcode-cn.com/problems/number-of-islands/)
+  - [my_c_solution](./6_DFS/200_µºÓìÊıÁ¿.c)
+
+ [207_¿Î³Ì±í](https://leetcode-cn.com/problems/course-schedule/)
+
+  - [my_c_solution](./6_DFS/207_¿Î³Ì±í.c)
 
 
 
-## 8 è´ªå¿ƒç®—æ³•
+## 7 BFS
 
-### 8.1 ç®€ä»‹
+### 7.1 ¼ò½é
+
+
+
+### 7.2 µäĞÍÌâÄ¿
+
+
+
+## 8 ¶¯Ì¬¹æ»®
+
+### 8.1 ¼ò½é
+
+
+
+### 8.2 µäĞÍÌâÄ¿
+
+
+
+## 9 Ì°ĞÄËã·¨
+
+### 9.1 ¼ò½é
 https://oi-wiki.org/basic/greedy/
 
 
-### 8.2 å…¸å‹é¢˜ç›®
+### 9.2 µäĞÍÌâÄ¿
 
-[452_ç”¨æœ€å°‘æ•°é‡çš„ç®­å¼•çˆ†æ°”çƒ](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)
- - [my_c_solution](./è´ªå¿ƒç®—æ³•/452_ç”¨æœ€å°‘æ•°é‡çš„ç®­å¼•çˆ†æ°”çƒ.c)
+[452_ÓÃ×îÉÙÊıÁ¿µÄ¼ıÒı±¬ÆøÇò](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)
 
-
-
-## 9 æ‹“æ‰‘æ’åº
-
-### 9.1 ç®€ä»‹
+ - [my_c_solution](./9_Ì°ĞÄËã·¨/452_ÓÃ×îÉÙÊıÁ¿µÄ¼ıÒı±¬ÆøÇò.c)
 
 
 
-### 9.2 å…¸å‹é¢˜ç›®
+## 10 ÍØÆËÅÅĞò
 
-[210_è¯¾ç¨‹è¡¨â…¡](https://leetcode-cn.com/problems/course-schedule-ii/)
- - [my_c_solution](./æ‹“æ‰‘æ’åº/210_è¯¾ç¨‹è¡¨â…¡.c)
-
-
-
-## 10 å­—å…¸æ ‘
-
-### 10.1 ç®€ä»‹
+### 10.1 ¼ò½é
 
 
 
-### 10.2 å…¸å‹é¢˜ç›®
-[208_å®ç° Trie (å‰ç¼€æ ‘)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
- - [my_c_solution](./å­—å…¸æ ‘/208_å®ç° Trie (å‰ç¼€æ ‘).c)
+### 10.2 µäĞÍÌâÄ¿
 
-[648_å•è¯æ›¿æ¢](https://leetcode-cn.com/problems/replace-words/)
+[210_¿Î³Ì±í¢ò](https://leetcode-cn.com/problems/course-schedule-ii/)
+ - [my_c_solution](./10_ÍØÆËÅÅĞò/210_¿Î³Ì±í¢ò.c)
 
- - [my_c_solution](./å­—å…¸æ ‘/648_å•è¯æ›¿æ¢)
 
-[820_å•è¯çš„å‹ç¼©ç¼–ç ](https://leetcode-cn.com/problems/short-encoding-of-words/)
 
- - [my_c_solution](./å­—å…¸æ ‘/820_å•è¯çš„å‹ç¼©ç¼–ç )
+## 11 ×ÖµäÊ÷
+
+### 11.1 ¼ò½é
+
+
+
+### 11.2 µäĞÍÌâÄ¿
+[208_ÊµÏÖ Trie (Ç°×ºÊ÷)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
+
+ - [my_c_solution](./11_×ÖµäÊ÷/208_ÊµÏÖ×ÖµäÊ÷.c)
+
+[648_µ¥´ÊÌæ»»](https://leetcode-cn.com/problems/replace-words/)
+
+ - [my_c_solution](./11_×ÖµäÊ÷/648_µ¥´ÊÌæ»»)
+
+[820_µ¥´ÊµÄÑ¹Ëõ±àÂë](https://leetcode-cn.com/problems/short-encoding-of-words/)
+
+ - [my_c_solution](./11_×ÖµäÊ÷/820_µ¥´ÊµÄÑ¹Ëõ±àÂë)
+
+
+
 
 
 
