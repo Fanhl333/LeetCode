@@ -38,7 +38,7 @@
 ## 1 前缀和与差分
 
 ### 1.1 简介
-
+https://oi-wiki.org/basic/prefix-sum/
 
 
 ### 1.2 典型题目
