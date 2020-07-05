@@ -102,7 +102,7 @@ https://oi-wiki.org/basic/prefix-sum/
  - [my_c_solution](./二叉树/105_从前序与中序遍历序列构造二叉树.c)
 
 [108_将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)
- - [my_c_solution]./二叉树/108_将有序数组转换为二叉搜索树.c)
+ - [my_c_solution](./二叉树/108_将有序数组转换为二叉搜索树.c)
 
 [236_二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
  - [my_c_solution](./二叉树/236_二叉树的最近公共祖先.c)
