@@ -44,7 +44,13 @@ https://oi-wiki.org/basic/prefix-sum/
 
 ### 1.2 典型题目
 
+ [1094_拼车](https://leetcode-cn.com/problems/car-pooling/)
 
+ - [my_c_solution](./1_前缀和与差分/1094_拼车.c)
+
+ [1109_航班预定统计](https://leetcode-cn.com/problems/corporate-flight-bookings/)
+
+ - [my_c_solution](./1_前缀和与差分/1109_航班预订统计.c)
 
 ## 2 双指针
 
