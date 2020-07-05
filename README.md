@@ -141,7 +141,7 @@
 ## 8 贪心算法
 
 ### 8.1 简介
-
+https://oi-wiki.org/basic/greedy/
 
 
 ### 8.2 典型题目
