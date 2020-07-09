@@ -39,7 +39,7 @@
 ## 1 前缀和与差分
 
 ### 1.1 简介
-https://oi-wiki.org/basic/prefix-sum/
+https://blog.csdn.net/fan_h_l/article/details/107236714
 
 
 ### 1.2 典型题目
@@ -49,7 +49,7 @@ https://oi-wiki.org/basic/prefix-sum/
 
  [974_和可被 K 整除的子数组](https://leetcode-cn.com/problems/subarray-sums-divisible-by-k/)
 
- - [my_c_solution](./1_前缀和与差分/974_和可被 K 整除的子数组.c)
+ - [my_c_solution](./1_前缀和与差分/974_和可被K整除的子数组.c)
 
  [1094_拼车](https://leetcode-cn.com/problems/car-pooling/)
 
@@ -82,6 +82,12 @@ https://oi-wiki.org/basic/prefix-sum/
 
  [200_岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
   - [my_c_solution](./3_并查集/200_岛屿数量.c)
+
+ [547_朋友圈.c](https://leetcode-cn.com/problems/number-of-islands/)
+
+- [my_c_solution](./3_并查集/200_朋友圈.c)
+
+
 
 ## 4 单调栈与单调队列
 
