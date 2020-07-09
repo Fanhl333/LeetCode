@@ -45,7 +45,7 @@ https://oi-wiki.org/basic/prefix-sum/
 ### 1.2 典型题目
  [560_和为K的子数组.c](https://leetcode-cn.com/problems/subarray-sum-equals-k/)
 
- - [my_c_solution](./1_前缀和与差分/560. 和为K的子数组.c)
+ - [my_c_solution](./1_前缀和与差分/560_和为K的子数组.c)
 
  [974_和可被 K 整除的子数组](https://leetcode-cn.com/problems/subarray-sums-divisible-by-k/)
 
