@@ -76,7 +76,7 @@ https://blog.csdn.net/fan_h_l/article/details/107236714
 
 ### 3.1 简介
 
-[并查集原理简介](./并查集/并查集原理简介.md)
+https://blog.csdn.net/fan_h_l/article/details/107241265
 
 ### 3.2 典型题目
 
