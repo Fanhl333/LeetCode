@@ -85,7 +85,7 @@ https://blog.csdn.net/fan_h_l/article/details/107241265
 
  [547_朋友圈.c](https://leetcode-cn.com/problems/number-of-islands/)
 
-- [my_c_solution](./3_并查集/200_朋友圈.c)
+- [my_c_solution](./3_并查集/547_朋友圈.c)
 
 
 
