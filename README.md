@@ -83,7 +83,7 @@ https://blog.csdn.net/fan_h_l/article/details/107241265
  [200_岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
   - [my_c_solution](./3_并查集/200_岛屿数量.c)
 
- [547_朋友圈.c](https://leetcode-cn.com/problems/number-of-islands/)
+ [547_朋友圈](https://leetcode-cn.com/problems/number-of-islands/)
 
 - [my_c_solution](./3_并查集/547_朋友圈.c)
 
@@ -96,7 +96,16 @@ https://blog.csdn.net/fan_h_l/article/details/107241265
 
 
 ### 4.2 典型题目
+ [84_柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
+  - [my_c_solution](./4_单调栈与单调队列/84_柱状图中最大的矩形.c)
 
+ [503_下一个更大元素II](https://leetcode-cn.com/problems/next-greater-element-ii/)
+
+- [my_c_solution](./4_单调栈与单调队列/503_下一个更大元素II.c)
+
+ [739_每日温度](https://leetcode-cn.com/problems/daily-temperatures/)
+
+- [my_c_solution](./4_单调栈与单调队列/739_每日温度.c)
 
 
 ## 5 二叉树
