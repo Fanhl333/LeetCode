@@ -94,3 +94,27 @@ bool isSymmetric(struct TreeNode* root)
     }
     return Judge(&leftStack, &rightStack);
 }
+
+// method 2
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     struct TreeNode *left;
+ *     struct TreeNode *right;
+ * };
+ */
+bool  check(struct TreeNode* p, struct TreeNode* q)
+{
+    if (p == NULL && q == NULL) {
+        return true;
+    }
+    if (p == NULL || q == NULL) {
+        return false;
+    }
+    return p->val == q->val && check(p->right, q->left) && check(p->left, q->right);
+}
+
+bool isSymmetric(struct TreeNode* root){
+    return check(root, root);
+}
