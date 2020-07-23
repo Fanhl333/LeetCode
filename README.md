@@ -226,7 +226,7 @@ https://oi-wiki.org/basic/greedy/
 
 [820_单词的压缩编码](https://leetcode-cn.com/problems/short-encoding-of-words/)
 
- - [my_c_solution](./11_字典树/820_单词的压缩编码)
+ - [my_c_solution](./11_字典树/820_单词的压缩编码.c)
 
 
 
