@@ -45,19 +45,19 @@ https://blog.csdn.net/fan_h_l/article/details/107236714
 ### 1.2 典型题目
  [560_和为K的子数组.c](https://leetcode-cn.com/problems/subarray-sum-equals-k/)
 
- - [my_c_solution](./1_前缀和与差分/560_和为K的子数组.c)
+ - [c_solution](./1_前缀和与差分/560_和为K的子数组.c)
 
  [974_和可被 K 整除的子数组](https://leetcode-cn.com/problems/subarray-sums-divisible-by-k/)
 
- - [my_c_solution](./1_前缀和与差分/974_和可被K整除的子数组.c)
+ - [c_solution](./1_前缀和与差分/974_和可被K整除的子数组.c)
 
  [1094_拼车](https://leetcode-cn.com/problems/car-pooling/)
 
- - [my_c_solution](./1_前缀和与差分/1094_拼车.c)
+ - [c_solution](./1_前缀和与差分/1094_拼车.c)
 
  [1109_航班预定统计](https://leetcode-cn.com/problems/corporate-flight-bookings/)
 
- - [my_c_solution](./1_前缀和与差分/1109_航班预订统计.c)
+ - [c_solution](./1_前缀和与差分/1109_航班预订统计.c)
 
 ## 2 双指针
 
@@ -68,7 +68,7 @@ https://blog.csdn.net/fan_h_l/article/details/107236714
 ### 2.2 典型题目
 
  [15_三数之和](https://leetcode-cn.com/problems/3sum/)
- - [my_c_solution](./2_双指针/15_三数之和.c)
+ - [c_solution](./2_双指针/15_三数之和.c)
 
 
 
@@ -81,11 +81,11 @@ https://blog.csdn.net/fan_h_l/article/details/107241265
 ### 3.2 典型题目
 
  [200_岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
-  - [my_c_solution](./3_并查集/200_岛屿数量.c)
+  - [c_solution](./3_并查集/200_岛屿数量.c)
 
  [547_朋友圈](https://leetcode-cn.com/problems/number-of-islands/)
 
-- [my_c_solution](./3_并查集/547_朋友圈.c)
+- [c_solution](./3_并查集/547_朋友圈.c)
 
 
 
@@ -97,15 +97,15 @@ https://blog.csdn.net/fan_h_l/article/details/107241265
 
 ### 4.2 典型题目
  [84_柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
-  - [my_c_solution](./4_单调栈与单调队列/84_柱状图中最大的矩形.c)
+  - [c_solution](./4_单调栈与单调队列/84_柱状图中最大的矩形.c)
 
  [503_下一个更大元素II](https://leetcode-cn.com/problems/next-greater-element-ii/)
 
-- [my_c_solution](./4_单调栈与单调队列/503_下一个更大元素II.c)
+- [c_solution](./4_单调栈与单调队列/503_下一个更大元素II.c)
 
  [739_每日温度](https://leetcode-cn.com/problems/daily-temperatures/)
 
-- [my_c_solution](./4_单调栈与单调队列/739_每日温度.c)
+- [c_solution](./4_单调栈与单调队列/739_每日温度.c)
 
 
 ## 5 二叉树
@@ -117,29 +117,29 @@ https://blog.csdn.net/fan_h_l/article/details/107241265
 ### 5.2 典型题目
 
 [98_验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)
- - [my_c_solution](./5_二叉树/98_验证二叉搜索树.c)
+ - [c_solution](./5_二叉树/98_验证二叉搜索树.c)
 
 [101_对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)
- - [my_c_solution](./5_二叉树/101_对称二叉树.c)
+ - [c_solution](./5_二叉树/101_对称二叉树.c)
 
 [102_二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
- - [my_c_solution](./5_二叉树/102_二叉树的层序遍历.c)
+ - [c_solution](./5_二叉树/102_二叉树的层序遍历.c)
 
 [104_二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
- - [my_c_solution](./5_二叉树/104_二叉树的最大深度.c)
+ - [c_solution](./5_二叉树/104_二叉树的最大深度.c)
 
 [105_从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
- - [my_c_solution](./5_二叉树/105_从前序与中序遍历序列构造二叉树.c)
+ - [c_solution](./5_二叉树/105_从前序与中序遍历序列构造二叉树.c)
 
 [108_将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)
 
- - [my_c_solution](./5_二叉树/108_将有序数组转换为二叉搜索树.c)
+ - [c_solution](./5_二叉树/108_将有序数组转换为二叉搜索树.c)
 
 [236_二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
- - [my_c_solution](./5_二叉树/236_二叉树的最近公共祖先.c)
+ - [c_solution](./5_二叉树/236_二叉树的最近公共祖先.c)
 
 [面试题17.12. BiNode](https://leetcode-cn.com/problems/binode-lcci/)
- - [my_c_solution](./5_二叉树/面试题17_12_BiNode.c)
+ - [c_solution](./5_二叉树/面试题17_12_BiNode.c)
 
 
 
@@ -151,14 +151,14 @@ https://blog.csdn.net/fan_h_l/article/details/107241265
 
 ### 6.2 典型题目
  [93_复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses/)
-  - [my_c_solution](./6_DFS/93_复原IP地址.c)
+  - [c_solution](./6_DFS/93_复原IP地址.c)
 
  [200_岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
-  - [my_c_solution](./6_DFS/200_岛屿数量.c)
+  - [c_solution](./6_DFS/200_岛屿数量.c)
 
  [207_课程表](https://leetcode-cn.com/problems/course-schedule/)
 
-  - [my_c_solution](./6_DFS/207_课程表.c)
+  - [c_solution](./6_DFS/207_课程表.c)
 
 
 
@@ -192,7 +192,7 @@ https://oi-wiki.org/basic/greedy/
 
 [452_用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)
 
- - [my_c_solution](./9_贪心算法/452_用最少数量的箭引爆气球.c)
+ - [c_solution](./9_贪心算法/452_用最少数量的箭引爆气球.c)
 
 
 
@@ -205,7 +205,7 @@ https://oi-wiki.org/basic/greedy/
 ### 10.2 典型题目
 
 [210_课程表Ⅱ](https://leetcode-cn.com/problems/course-schedule-ii/)
- - [my_c_solution](./10_拓扑排序/210_课程表Ⅱ.c)
+ - [c_solution](./10_拓扑排序/210_课程表Ⅱ.c)
 
 
 
@@ -218,15 +218,15 @@ https://oi-wiki.org/basic/greedy/
 ### 11.2 典型题目
 [208_实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
 
- - [my_c_solution](./11_字典树/208_实现字典树.c)
+ - [c_solution](./11_字典树/208_实现字典树.c)
 
 [648_单词替换](https://leetcode-cn.com/problems/replace-words/)
 
- - [my_c_solution](./11_字典树/648_单词替换)
+ - [c_solution](./11_字典树/648_单词替换)
 
 [820_单词的压缩编码](https://leetcode-cn.com/problems/short-encoding-of-words/)
 
- - [my_c_solution](./11_字典树/820_单词的压缩编码.c)
+ - [c_solution](./11_字典树/820_单词的压缩编码.c)
 
 
 
